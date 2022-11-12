@@ -10,7 +10,7 @@ alembic.ini
 app.db
 .idea/
 migrations/
-
+test_main.http
 # Distribution / packaging
 .Python
 build/

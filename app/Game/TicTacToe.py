@@ -3,7 +3,7 @@ from sqlalchemy import desc
 from app.database.models import GameSymbols, Games
 from app.database.schemas import GameSymbols as schemas_gamesymbols
 from app.database.db import Session
-from dependencies import get_db
+from app.dependencies import get_db
 
 router = APIRouter()
 
